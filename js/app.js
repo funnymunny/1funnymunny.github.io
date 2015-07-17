@@ -14,8 +14,8 @@ var Application = {
     run : function()
     {
         $('#app-status').html('Application active');
-    }
-       // load current user info
+
+        // load current user info
         VK.api('users.get', { fields : 'first_name, last_name, photo_50'  }, this.onUserInfoResponse.bind(this));
 
         // load user friends
