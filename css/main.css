@@ -1,1 +1,31 @@
 
+/** VK Application styles */
+
+.user-info{
+    margin: 10px;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+#friends{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.friend{
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.friend .username{
+    margin-left: 5px;
+}
+
+.friend.online-0 .avatar{
+    border: 3px solid lightcoral;
+}
+
+
+.friend.online-1 .avatar{
+    border: 3px solid lightgreen;
+}
